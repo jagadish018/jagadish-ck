@@ -6,7 +6,7 @@ const ContactBlock = () => {
     <div className="dark:bg-[#0A0A0A] min-h-screen flex flex-col font-inter">
       <header className="dark:bg-[#0A0A0A] rounded-b-xl px-6 py-3 w-full">
         <nav className="max-w-5xl mx-auto flex items-center gap-2">
-          <span className="text-[#f5d9b6] font-bold">Contact</span>
+          <span className="text-[#f5d9b6] text-3xl font-bold">Contact</span>
           
         </nav>
       </header>

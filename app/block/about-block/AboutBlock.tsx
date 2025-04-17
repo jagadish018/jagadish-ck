@@ -14,11 +14,11 @@ const AboutBlock = () => {
       {/* Flex Container */}
       <div className="flex flex-col lg:flex-row gap-8 items-stretch justify-center">
         {/* Left Card */}
-        <div className=" rounded-2xl p-8 shadow-md dark:shadow-white w-full lg:w-[390px] flex flex-col items-center text-center">
+        <div className=" rounded-2xl p-6 shadow-md dark:shadow-white w-full lg:w-[390px] flex flex-col items-center text-center">
           <div className="relative w-40 h-40 mb-4">
             <Image
               src="/profile.JPG"
-              alt="Rahul Gulabaji"
+              alt="Jagadish C K"
               fill
               className="rounded-full object-cover border-4 border-[#f6e5c8]"
             />
@@ -58,7 +58,7 @@ const AboutBlock = () => {
         </div>
 
         {/* Right Card */}
-        <div className=" rounded-2xl p-8 shadow-md w-full flex flex-col justify-between dark:shadow-white">
+        <div className=" rounded-2xl p-6 shadow-md w-full flex flex-col justify-between dark:shadow-white">
           <p className="leading-relaxed px-8 text-[15px] md:text-base text-justify">
             <strong>Greetings,</strong>
             <br />
