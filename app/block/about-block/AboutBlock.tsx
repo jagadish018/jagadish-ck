@@ -59,7 +59,7 @@ const AboutBlock = () => {
 
         {/* Right Card */}
         <div className=" rounded-2xl p-6 shadow-md w-full flex flex-col justify-between dark:shadow-white">
-          <p className="leading-relaxed px-8 text-[15px] md:text-base text-justify">
+          <p className="leading-relaxed px-4 text-[15px] md:text-base text-justify">
             <strong>Greetings,</strong>
             <br />
             <br />I am Jagadish C K, a driven and innovative Information Science
