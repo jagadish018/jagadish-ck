@@ -3,12 +3,14 @@ import "./globals.css";
 import { Inter } from "next/font/google";
 import React, { PropsWithChildren } from "react";
 
-const inter = Inter({
-  subsets: ["latin"],
-});
+
+
+const inter = Inter({ subsets: ["latin"], variable: "--font-inter" });
+
+
 const RootLayout = (props: PropsWithChildren) => {
   return (
-    <html lang="en" suppressHydrationWarning>
+    <html lang="en" className={inter.variable} suppressHydrationWarning>
       <body>
         <ThemeProvider
           attribute="class"
