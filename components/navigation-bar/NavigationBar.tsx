@@ -36,22 +36,25 @@ export default function NavigationBar() {
   const toggleMenu = () => setIsOpen((prev) => !prev);
 
   return (
-    <div className="bg-white dark:bg-[#1C1C21] sticky top-0 shadow py-4 px-6 z-50">
+    <div className="bg-[#0E1117] sticky top-0 shadow py-8 px-4 z-50 text-white">
       <div className="flex items-center justify-between max-w-7xl mx-auto">
         {/* Logo */}
-        <div className="font-bold text-xl text-transparent bg-clip-text bg-gradient-to-r from-blue-500 via-purple-500 to-pink-500">
+        <Link
+          href={paths.home}
+          className="font-bold text-xl text-transparent bg-clip-text bg-gradient-to-r from-blue-500 via-purple-500 to-pink-500"
+        >
           &lt;JAGADISH C K /&gt;
-        </div>
+        </Link>
 
         {/* Hamburger */}
         <div className="md:hidden">
-          <button onClick={toggleMenu} className="text-black dark:text-white">
+          <button onClick={toggleMenu} className="text-black ">
             {isOpen ? <X size={28} /> : <Menu size={28} />}
           </button>
         </div>
 
         {/* Desktop Menu */}
-        <nav className="hidden md:flex gap-6 items-center font-semibold">
+        <nav className="hidden md:flex gap-6 items-center font-semibold dark:text-white">
           {navItems.map((item) => (
             <Link
               key={item.href}
@@ -74,13 +77,13 @@ export default function NavigationBar() {
 
       {/* Mobile Menu */}
       {isOpen && (
-        <div className="md:hidden flex flex-col items-center gap-4 mt-4 font-semibold">
+        <div className="md:hidden flex flex-col items-center gap-4 mt-4 font-semibold dark:text-white">
           {navItems.map((item) => (
             <Link
               key={item.href}
               href={item.href}
               onClick={() => setIsOpen(false)}
-              className={`${
+              className={`$${
                 path === item.href ? "text-blue-800 font-bold" : ""
               } hover:text-blue-500 transition`}
             >

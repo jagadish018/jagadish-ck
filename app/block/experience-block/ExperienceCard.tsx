@@ -40,7 +40,7 @@ const ExperienceCard: React.FC = () => {
             {index === 0 && (
               <div className="z-10 md:absolute md:left-1/2 md:top-1/2 md:-translate-x-1/2 md:-translate-y-1/2 flex justify-center md:block">
                 {/* Increased card size: Timeline Icon */}
-                <div className="w-24 h-24 rounded-full border border-white bg-[#2e2b3c] flex items-center justify-center overflow-hidden mx-auto">
+                <div className="w-24 h-24 rounded-full border border-white bg-[#0E1117] flex items-center justify-center overflow-hidden mx-auto">
                   <div className="flex flex-col items-center justify-center">
                     <Image
                       src={exp.logo}
@@ -59,10 +59,10 @@ const ExperienceCard: React.FC = () => {
 
             {/* Left Content for Large Screens, Full Width on Small */}
             <div className="w-full md:w-1/2 flex justify-end md:pr-20 z-10 mt-20 md:mt-0">
-              <div className="relative bg-[#2e2b3c] text-white rounded-md p-8 max-w-xl shadow-[0_2px_0_0_rgba(255,255,255,0.3)] w-full">
+              <div className="relative bg-[#0E1117] text-white rounded-md p-8 max-w-xl shadow-[0_2px_0_0_rgba(255,255,255,0.3)] w-full">
                 {/* Increased card size: content card -> p-8, max-w-xl */}
                 <div className="hidden md:block absolute top-1/2 -right-3 -translate-y-1/2 w-0 h-0 border-y-6 border-y-transparent border-l-[12px] border-l-[#2e2b3c]" />
-                <p className="font-semibold mb-1 text-lg">{exp.role}</p>
+                <p className="font-semibold mb-1 text-3xl">{exp.role}</p>
                 <p className="font-mono text-sm mb-4">{exp.organization}</p>
                 <ul className="list-disc list-inside space-y-3 text-sm font-normal">
                   {exp.points.map((point, i) => (

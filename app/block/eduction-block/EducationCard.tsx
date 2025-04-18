@@ -18,7 +18,7 @@ const EducationCard = ({
   imagePath,
 }: EducationCardProps) => {
   return (
-    <div className="bg-[#1f2121] shadow-lg rounded-3xl overflow-hidden w-full max-w-md mx-auto">
+    <div className="bg-[#0E1117] shadow-lg rounded-3xl overflow-hidden w-full max-w-md mx-auto">
       <figure className="w-full">
         <Image
           src={imagePath}
