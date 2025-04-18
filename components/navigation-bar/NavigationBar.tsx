@@ -81,7 +81,7 @@ export default function NavigationBar() {
 
       {/* Mobile Menu */}
       {isOpen && (
-        <div className="md:hidden flex flex-col items-center gap-4 mt-4 font-semibold dark:text-white">
+        <div className="md:hidden mt-4 p-4 rounded-lg bg-transparent shadow-lg grid grid-cols-3 gap-4 font-semibold dark:text-white text-center">
           {navItems.map((item) => (
             <Link
               key={item.href}
