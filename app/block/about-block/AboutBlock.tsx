@@ -23,31 +23,32 @@ const AboutBlock = () => {
               className="rounded-full object-cover border-4 border-[#f6e5c8]"
             />
           </div>
-          <h3 className="text-xl font-bold mb-2">Jagadish C K</h3>
-          <ul className="text-left space-y-2 text-sm">
-            <li>
-              <span className="font-semibold">› Birthday:</span> July 2000
+          <h3 className="text-xl font-bold mb-2 ">Jagadish C K</h3>
+          <ul className="text-left space-y-2 text-sm text-white">
+            <li className="text-white">
+              <span className="font-semibold text-white">› Birthday:</span> July
+              2000
             </li>
-            <li>
+            <li className="text-white">
               <span className="font-semibold">› Phone:</span>{" "}
               <a
                 href="tel:+917349269873"
-                className=" text-black dark:text-white underline hover:text-orange-400"
+                className=" text-white underline hover:text-orange-400"
               >
                 +91 7349269873
               </a>
             </li>
-            <li>
+            <li className="text-white">
               <span className="font-semibold">› City:</span>{" "}
-              <span id="location" className=" text-black dark:text-white">
+              <span id="location" className=" text-white">
                 Karnataka, India
               </span>
             </li>
-            <li>
+            <li className="text-white">
               <span className="font-semibold">› Email:</span>{" "}
               <a
                 href="mailto:jagadishck.018@gmail.com"
-                className=" text-black dark:text-white underline hover:text-orange-400"
+                className=" text-white underline hover:text-orange-400"
               >
                 jagadishck.018@gmail.com
               </a>
@@ -59,7 +60,7 @@ const AboutBlock = () => {
 
         {/* Right Card */}
         <div className=" rounded-2xl p-6 shadow-md w-full flex flex-col justify-between bg-[#0E1117]">
-          <p className="leading-relaxed px-4 text-[15px] md:text-base text-justify">
+          <p className="leading-relaxed px-4 text-[15px] text-white md:text-base text-justify">
             <strong>Greetings,</strong>
             <br />
             <br />I am Jagadish C K, a driven and innovative Information Science

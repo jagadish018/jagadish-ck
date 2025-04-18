@@ -62,8 +62,10 @@ const ExperienceCard: React.FC = () => {
               <div className="relative bg-[#0E1117] text-white rounded-md p-8 max-w-xl shadow-[0_2px_0_0_rgba(255,255,255,0.3)] w-full">
                 {/* Increased card size: content card -> p-8, max-w-xl */}
                 <div className="hidden md:block absolute top-1/2 -right-3 -translate-y-1/2 w-0 h-0 border-y-6 border-y-transparent border-l-[12px] border-l-[#2e2b3c]" />
-                <p className="font-semibold mb-1 text-3xl">{exp.role}</p>
-                <p className="font-mono text-sm mb-4">{exp.organization}</p>
+                <p className="font-semibold mb-1 text-3xl text-[#FEF3C6]">
+                  {exp.role}
+                </p>
+                <p className="font-mono text-sm mb-4 text-blue-500">{exp.organization}</p>
                 <ul className="list-disc list-inside space-y-3 text-sm font-normal">
                   {exp.points.map((point, i) => (
                     <li key={i}>{point}</li>

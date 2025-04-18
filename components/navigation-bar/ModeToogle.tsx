@@ -13,7 +13,7 @@ export function ModeToggle() {
 
   // Update index based on the current theme
   React.useEffect(() => {
-    const currentIndex = modes.indexOf(theme || "system");
+    const currentIndex = modes.indexOf(theme || "dark");
     setIndex(currentIndex === -1 ? 2 : currentIndex);
   }, [theme]);
 

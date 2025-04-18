@@ -58,11 +58,11 @@ const HeroPage = () => {
       <div className="w-full max-w-6xl flex flex-col md:flex-row items-center gap-7 justify-between rounded-xl overflow-hidden shadow-lg p-4">
         {/* Left Section */}
         <div className="flex-1 text-start px-6">
-          <h1 className="text-4xl md:text-6xl font-extrabold text-black dark:text-white leading-tight">
+          <h1 className="text-4xl md:text-6xl font-extrabold text-[#b5955d] leading-tight">
             Jagadish C K
           </h1>
 
-          <p className="mt-6 text-2xl font-bold text-gray-700 dark:text-slate-300 flex gap-2">
+          <p className="mt-6 text-2xl font-bold text-[#b5955d]  flex gap-2">
             I am a <TypingText />
           </p>
 
@@ -75,7 +75,7 @@ const HeroPage = () => {
                 target="_blank"
                 rel="noopener noreferrer"
                 title={social.title}
-                className="text-gray-700 dark:text-white hover:text-blue-600 dark:hover:text-blue-300 transition-all duration-200"
+                className="text-[#b5955d] hover:text-blue-600 dark:hover:text-blue-300 transition-all duration-200"
               >
                 {social.tag}
               </a>
@@ -95,7 +95,7 @@ const HeroPage = () => {
       </div>
 
       {/* Footer */}
-      <div className="absolute bottom-5 w-full text-center text-sm text-gray-600 dark:text-gray-400">
+      <div className="absolute bottom-5 w-full text-center text-sm text-[#b5955d]">
         Made with ❤ and &lt;/&gt; by Jagadish
       </div>
     </div>

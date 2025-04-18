@@ -30,7 +30,7 @@ const TypingText = () => {
           }
         }
       },
-      forward ? 120 : 60
+      forward ? 140 : 140
     );
 
     setDisplayText(currentWord.slice(0, charIndex));
@@ -39,7 +39,7 @@ const TypingText = () => {
   }, [charIndex, forward, wordIndex]);
 
   return (
-    <span className="text-cyan-400 font-bold">
+    <span className="text-cyan-500 font-bold">
       {displayText}
       <span className="animate-pulse inline-block w-[1px] h-6 bg-current ml-1" />
     </span>

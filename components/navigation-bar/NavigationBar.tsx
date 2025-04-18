@@ -58,17 +58,17 @@ export default function NavigationBar() {
         </div>
 
         {/* Desktop Menu */}
-        <nav className="hidden md:flex gap-6 items-center font-semibold dark:text-white">
+        <nav className="hidden md:flex gap-7 items-center font-semibold dark:text-white">
           {navItems.map((item) => (
             <Link
               key={item.href}
               href={item.href}
               className={`
     relative pb-1
-    ${path === item.href ? "text-blue-800 font-bold" : ""}
-    hover:text-blue-500 transition
+    ${path === item.href ? "text-orange-400 font-bold" : ""}
+    hover:text-orange-400 transition
     before:content-[''] before:absolute before:left-0 before:bottom-0 before:h-[2px]
-    before:w-0 before:bg-blue-500 before:transition-all before:duration-300
+    before:w-0 before:bg-orange-500 before:transition-all before:duration-300
     hover:before:w-full
   `}
             >
