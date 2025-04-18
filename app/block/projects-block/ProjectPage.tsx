@@ -39,7 +39,7 @@ const ProjectPage = () => {
     {
       imagePath: "/Hono.jpg",
       title: "Hono Clone",
-      projectUrl: "https://copper-woad.vercel.app/",
+      projectUrl: "https://github.com/jagadish018/copper",
       description: "Developed Hono clone Web Framework  ",
     },
   ];

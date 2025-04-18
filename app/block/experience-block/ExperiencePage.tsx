@@ -1,11 +1,11 @@
+import Container from "@/components/Container";
 import ExperienceCard from "./ExperienceCard";
 
 
 export default function ExperiencePage() {
   return (
-    <main>
-      
+    <Container>
       <ExperienceCard />
-    </main>
+    </Container>
   );
 }
