@@ -14,10 +14,10 @@ const ExperienceCard: React.FC = () => {
         <div className="absolute left-1/2 top-1/2 -translate-x-1/2 -translate-y-1/2 z-10">
           <div className="w-20 h-20 rounded-full border border-white bg-[#2e2b3c] flex items-center justify-center overflow-hidden">
             <Image
-              src="/oracle.png" // Change this to your own logo if you have one
+              src="/stacklane.svg" // Change this to your own logo if you have one
               alt="Project Logo"
-              width={50}
-              height={50}
+              width={150}
+              height={150}
               className="object-contain"
             />
           </div>
