@@ -31,7 +31,7 @@ const ExperienceCard: React.FC = () => {
   return (
     <div className="bg-transparent dark:bg-neutral min-h-screen flex flex-col items-center justify-center p-6">
       {/* Section Title */}
-      <div className="mb-30 text-center text-black dark:text-white">
+      <div className="mb-10 text-center text-black dark:text-white">
         <h2 className="text-2xl md:text-3xl font-semibold border-b-2 border-[#c49647] inline-block text-black dark:text-white">
           Experience
         </h2>
