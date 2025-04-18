@@ -19,7 +19,7 @@ const ProjectPage = () => {
     {
       imagePath: "/swiggy.jpg",
       title: "Swiggy Clone",
-      projectUrl: "https://github.com/jagadish018/hackernews-server",
+      projectUrl: "https://github.com/jagadish018/Swiggy-Clone-website",
       description: "Developed Swiggy clone ",
     },
     {
@@ -39,7 +39,7 @@ const ProjectPage = () => {
     {
       imagePath: "/Hono.jpg",
       title: "Hono Clone",
-      projectUrl: "https://github.com/jagadish018/hackernews-server",
+      projectUrl: "https://copper-woad.vercel.app/",
       description: "Developed Hono clone Web Framework  ",
     },
   ];
