@@ -49,7 +49,11 @@ export default function NavigationBar() {
         {/* Hamburger */}
         <div className="md:hidden">
           <button onClick={toggleMenu} className="text-white ">
-            {isOpen ? <X size={28} /> : <Menu size={28} />}
+            {isOpen ? (
+              <X size={28} className=" dark:text-white" />
+            ) : (
+              <Menu size={28} className="text-white" />
+            )}
           </button>
         </div>
 
