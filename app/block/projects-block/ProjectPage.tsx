@@ -46,11 +46,11 @@ const ProjectPage = () => {
 
   return (
     <div className="dark:bg-[#0A0A0A] min-h-screen font-inter px-4 py-10">
-      <header className="text-center mb-8">
-        <h1 className="text-3xl font-bold text-black dark:text-white">
+      <div className="mb-8 text-center">
+        <h2 className="text-2xl md:text-3xl font-semibold border-b-2 border-[#c49647] inline-block">
           Projects
-        </h1>
-      </header>
+        </h2>
+      </div>
 
       <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-2 gap-6 max-w-6xl mx-auto">
         {details.map((item, index) => (

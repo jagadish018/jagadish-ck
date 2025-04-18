@@ -23,13 +23,11 @@ const ContactBlock = () => {
 
   return (
     <div className="dark:bg-[#0A0A0A] min-h-screen flex flex-col items-center font-inter px-4 py-6">
-      <header className="w-full">
-        <nav className="max-w-5xl mx-auto text-center">
-          <span className="text-black dark:text-white text-3xl font-bold">
-            Education
-          </span>
-        </nav>
-      </header>
+      <div className="mb-8 text-center">
+        <h2 className="text-2xl md:text-3xl font-semibold border-b-2 border-[#c49647] inline-block">
+          Education
+        </h2>
+      </div>
 
       <div className="grid grid-cols-1 md:grid-cols-2 gap-8 mt-10 w-full max-w-5xl">
         {details.map((item, index) => (

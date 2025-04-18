@@ -95,7 +95,11 @@ export default function SkillsPage() {
 
   return (
     <div className="min-h-screen dark:bg-neutral dark:text-white text-black p-8">
-      <h1 className="text-3xl font-bold text-center mb-10">Technical Skills</h1>
+      <div className="mb-8 text-center">
+        <h2 className="text-2xl md:text-3xl font-semibold border-b-2 border-[#c49647] inline-block">
+          Technical Skills
+        </h2>
+      </div>
       <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 gap-2">
         {skills.map((skill, idx) => (
           <SkillsCard
