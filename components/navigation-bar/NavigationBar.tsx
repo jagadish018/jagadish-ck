@@ -41,7 +41,7 @@ export default function NavigationBar() {
         {/* Logo */}
         <Link
           href={paths.home}
-          className="font-bold text-xl text-transparent bg-clip-text bg-gradient-to-r from-blue-500 via-purple-500 to-pink-500"
+          className="font-bold text-xl text-transparent bg-clip-text bg-gradient-to-r from-pink-600 via-red-500 to-orange-400"
         >
           &lt;JAGADISH C K /&gt;
         </Link>
@@ -66,9 +66,9 @@ export default function NavigationBar() {
               className={`
     relative pb-1
     ${path === item.href ? "text-orange-400 font-bold" : ""}
-    hover:text-orange-400 transition
+    hover:text-orange-300 transition
     before:content-[''] before:absolute before:left-0 before:bottom-0 before:h-[2px]
-    before:w-0 before:bg-orange-500 before:transition-all before:duration-300
+    before:w-0 before:bg-orange-700 before:transition-all before:duration-300
     hover:before:w-full
   `}
             >
