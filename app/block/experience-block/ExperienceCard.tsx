@@ -21,6 +21,7 @@ const ExperienceCard: React.FC = () => {
                 height={10}
                 className="object-contain rounded-full"
               />
+              
               <h4 className="text-white">stacklane</h4>
             </div>
           </div>
