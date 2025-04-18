@@ -8,18 +8,21 @@ const ExperienceCard: React.FC = () => {
     <div className="bg-transparent dark:bg-neutral min-h-screen flex items-center justify-center p-6">
       <div className="flex w-full max-w-5xl relative">
         {/* Center Vertical Line */}
-        <div className="absolute left-1/2 top-0 bottom-0 w-[2px] bg-white -translate-x-1/2 z-0" />
+        <div className="absolute left-1/2 top-0 bottom-0 w-[2px] bg-black  dark:bg-white -translate-x-1/2 z-0" />
 
         {/* Timeline Icon in Center */}
         <div className="absolute left-1/2 top-1/2 -translate-x-1/2 -translate-y-1/2 z-10">
-          <div className="w-20 h-20 rounded-full border border-white bg-[#2e2b3c] flex items-center justify-center overflow-hidden">
-            <Image
-              src="/stacklane.svg" // Change this to your own logo if you have one
-              alt="Project Logo"
-              width={150}
-              height={150}
-              className="object-contain"
-            />
+          <div className="w-25 h-20 rounded-full border border-white bg-[#2e2b3c] flex items-center justify-center overflow-hidden">
+            <div className="flex flex-col items-center justify-center">
+              <Image
+                src="/stacklane.png" // Change this to your own logo if you have one
+                alt="Project Logo"
+                width={30}
+                height={10}
+                className="object-contain rounded-full"
+              />
+              <h4 className="text-white">stacklane</h4>
+            </div>
           </div>
         </div>
 
