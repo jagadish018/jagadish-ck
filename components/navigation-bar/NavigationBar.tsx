@@ -13,9 +13,9 @@ export default function NavigationBar() {
   const paths = {
     home: "/",
     about: "/block/about-block",
-    education:"/block/eduction-block",
-    skills: "/skills",
-    projects:"/block/projects-block",
+    education: "/block/eduction-block",
+    skills: "/block/skills-block",
+    projects: "/block/projects-block",
     resume:
       "https://drive.google.com/file/d/1iGemOAXi8FTNwpmVurO_GuoGZMfgr_v-/view?usp=drive_link",
     contact: "/block/contact-block",
