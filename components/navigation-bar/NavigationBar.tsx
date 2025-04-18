@@ -14,6 +14,7 @@ export default function NavigationBar() {
     home: "/",
     about: "/block/about-block",
     education: "/block/eduction-block",
+    experience: "/block/experience-block",
     skills: "/block/skills-block",
     projects: "/block/projects-block",
     resume:
@@ -25,6 +26,7 @@ export default function NavigationBar() {
     { label: "Home", href: paths.home },
     { label: "About", href: paths.about },
     { label: "Education", href: paths.education },
+    { label: "Experience", href: paths.experience },
     { label: "Skills", href: paths.skills },
     { label: "Projects", href: paths.projects },
     { label: "Resume", href: paths.resume },
