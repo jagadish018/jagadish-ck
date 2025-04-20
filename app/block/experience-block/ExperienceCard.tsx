@@ -68,7 +68,7 @@ const ExperienceCard: React.FC = () => {
             <div className="w-full md:w-1/2 flex justify-end md:pr-20 z-10 mt-20 md:mt-0">
               <div className="relative bg-[#0E1117] text-white rounded-md p-8 max-w-xl shadow-[0_2px_0_0_rgba(255,255,255,0.3)] w-full">
                 <div className="hidden md:block absolute top-1/2 -right-3 -translate-y-1/2 w-0 h-0 border-y-6 border-y-transparent border-l-[12px] border-l-[#2e2b3c]" />
-                <p className="font-semibold mb-1 text-3xl text-[#FEF3C6]">
+                <p className="font-semibold mb-1 text-3xl text-white">
                   {exp.role}
                 </p>
                 <p className="font-mono text-sm mb-4 text-blue-500">
