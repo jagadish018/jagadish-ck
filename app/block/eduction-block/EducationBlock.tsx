@@ -22,7 +22,7 @@ const ContactBlock = () => {
   ];
 
   return (
-    <div className="dark:bg-[#0A0A0A] min-h-screen flex flex-col items-center font-inter px-4 py-6">
+    <div className=" min-h-screen flex flex-col items-center font-inter px-4 py-6">
       <div className="mb-8 text-center">
         <h2 className="text-2xl md:text-3xl font-semibold border-b-2 border-[#c49647] inline-block">
           Education

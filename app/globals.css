@@ -115,7 +115,15 @@
   * {
     @apply border-border outline-ring/50;
   }
+
   body {
     @apply bg-background text-foreground;
+    background: radial-gradient(175% 175% at 50% 10%, #fbfbff 30%, #ef4444 60%, #7c3aed 100%);
+  }
+
+  .dark body {
+    background: radial-gradient(175% 175% at 50% 10%, #000 30%, #ef4444 60%, #fb923c 100%);
   }
 }
+
+

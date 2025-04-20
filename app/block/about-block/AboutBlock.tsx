@@ -3,10 +3,10 @@ import Image from "next/image";
 
 const AboutBlock = () => {
   return (
-    <div className="min-h-screen px-4 md:px-16 py-10 bg-white dark:bg-[#0A0A0A]  text-black dark:text-white">
+    <div className="min-h-screen px-4 md:px-16 py-10   text-black dark:text-white">
       {/* Header */}
       <div className="mb-8">
-        <h2 className="text-2xl md:text-3xl font-semibold border-b-2 border-[#f6e5c8] inline-block">
+        <h2 className="text-2xl md:text-3xl font-semibold border-b-2 border-[#c49647] inline-block">
           About
         </h2>
       </div>
@@ -64,16 +64,15 @@ const AboutBlock = () => {
             <strong>Greetings,</strong>
             <br />
             <br />I am Jagadish C K, a driven and innovative Information Science
-            engineer with a burgeoning expertise in with expertise in web
-            development. My academic foundation, cultivated at Siddaganga
-            Institute of technology, serves as the bedrock for my proficiency in
-            a diverse array of technologies. This portfolio offers a
-            comprehensive overview of my capabilities, encompassing robust web
-            development skills—leveraging the Full stack—alongside a strong
-            command of core programming languages, notably C++ and Python. I am
-            passionate about crafting elegant, efficient solutions and
-            continuously expanding my knowledge horizon within the dynamic realm
-            of technology.
+            engineer with expertise in web development. My academic foundation,
+            cultivated at Siddaganga Institute of technology, serves as the
+            bedrock for my proficiency in a diverse array of technologies. This
+            portfolio offers a comprehensive overview of my capabilities,
+            encompassing robust web development skills—leveraging the Full
+            stack—alongside a strong command of core programming languages,
+            notably C++ and Python. I am passionate about crafting elegant,
+            efficient solutions and continuously expanding my knowledge horizon
+            within the dynamic realm of technology.
           </p>
         </div>
       </div>

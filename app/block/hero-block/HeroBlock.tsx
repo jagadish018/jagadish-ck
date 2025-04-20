@@ -44,7 +44,7 @@ const socialLinks = [
 
 const HeroPage = () => {
   return (
-    <div className="h-screen bg-white dark:bg-[#0A0A0A] text-black dark:text-white flex items-center justify-center px-4 relative">
+    <div className="h-screen  text-black dark:text-white flex items-center justify-center px-4 relative">
       {/* Radial Gradient Background */}
       <div
         className="absolute inset-0 -z-10 h-full w-full px-5 py-24

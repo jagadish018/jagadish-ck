@@ -10,7 +10,7 @@ export default function SkillsCard({ title, Icon, link }: SkillsCardProps) {
       href={link}
       target="_blank"
       rel="noopener noreferrer"
-      className="flex flex-col items-center justify-center p-4 rounded-lg border border-[#0e1117] bg-transparent dark:bg-[#0e1117] dark:shadow-lg hover:scale-105 transition-transform duration-300 w-24 h-24 sm:w-28 sm:h-28"
+      className="flex flex-col items-center justify-center p-4 rounded-lg border border-[#0e1117] dark:border-white bg-transparent dark:bg-[#0e1117] dark:shadow-lg hover:scale-105 transition-transform duration-300 w-24 h-24 sm:w-28 sm:h-28"
     >
       <div className="w-10 h-10 sm:w-12 sm:h-12">
         <Icon className="w-full h-full" />

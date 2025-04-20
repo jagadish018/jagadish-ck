@@ -45,7 +45,7 @@ const ProjectPage = () => {
   ];
 
   return (
-    <div className="dark:bg-[#0A0A0A] min-h-screen font-inter px-4 py-10">
+    <div className=" min-h-screen font-inter px-4 py-10">
       <div className="mb-8 text-center">
         <h2 className="text-2xl md:text-3xl font-semibold border-b-2 border-[#c49647] inline-block">
           Projects

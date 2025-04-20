@@ -7,7 +7,7 @@ const ContactBlock = () => {
   
 
   return (
-    <div className="dark:bg-[#0A0A0A] min-h-screen flex flex-col font-inter mt-2">
+    <div className=" min-h-screen flex flex-col font-inter mt-2">
       <div className="mb-8 text-center">
         <h2 className="text-2xl md:text-3xl font-semibold border-b-2 border-[#c49647] inline-block">
           Contact
