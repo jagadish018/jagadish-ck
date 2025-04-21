@@ -1,4 +1,6 @@
+"use client";
 import React from "react";
+import { motion } from "framer-motion";
 import ProjectCard from "./ProjectCard";
 
 const ProjectPage = () => {
@@ -40,12 +42,12 @@ const ProjectPage = () => {
       imagePath: "/Hono.jpg",
       title: "Hono Clone",
       projectUrl: "https://github.com/jagadish018/copper",
-      description: "Developed Hono clone Web Framework  ",
+      description: "Developed Hono clone Web Framework",
     },
   ];
 
   return (
-    <div className=" min-h-screen font-inter px-4 py-10">
+    <div className="min-h-screen font-inter px-4 py-10">
       <div className="mb-8 text-center">
         <h2 className="text-2xl md:text-3xl font-semibold border-b-2 border-[#c49647] inline-block">
           Projects
@@ -54,13 +56,20 @@ const ProjectPage = () => {
 
       <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-2 gap-6 max-w-6xl mx-auto">
         {details.map((item, index) => (
-          <ProjectCard
+          <motion.div
             key={index}
-            imagePath={item.imagePath}
-            title={item.title}
-            projectUrl={item.projectUrl}
-            description={item.description}
-          />
+            initial={{ x: index % 2 === 0 ? -100 : 100, opacity: 0 }}
+            whileInView={{ x: 0, opacity: 1 }}
+            transition={{ duration: 0.6, ease: "easeOut" }}
+            viewport={{ once: true }}
+          >
+            <ProjectCard
+              imagePath={item.imagePath}
+              title={item.title}
+              projectUrl={item.projectUrl}
+              description={item.description}
+            />
+          </motion.div>
         ))}
       </div>
     </div>

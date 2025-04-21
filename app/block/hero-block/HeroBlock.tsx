@@ -1,10 +1,10 @@
 "use client";
 
-import { Island_Moments } from "next/font/google";
-
 import dynamic from "next/dynamic";
 import React from "react";
 import TypingText from "./TypingText";
+import { motion } from "framer-motion";
+
 
 import { VscGithubInverted } from "react-icons/vsc";
 import { BiLogoInstagramAlt } from "react-icons/bi";
@@ -16,8 +16,6 @@ const LottiePlayer = dynamic(
   () => import("@/components/lottiefile-animation/LottiePlayer"),
   { ssr: false }
 );
-
-
 
 
 const socialLinks = [
@@ -64,13 +62,23 @@ const HeroPage = () => {
       <div className="w-full max-w-6xl flex flex-col md:flex-row items-center gap-7 justify-between rounded-xl overflow-hidden shadow-lg p-4">
         {/* Left Section */}
         <div className="flex-1 text-start px-6">
-          <h1 className={`text-4xl md:text-6xl font-extrabold text-black dark:text-white leading-tight  `}>
+          <motion.h1
+            initial={{ opacity: 0, y: -30 }}
+            animate={{ opacity: 1, y: 0 }}
+            transition={{ duration: 0.6 }}
+            className={`text-4xl md:text-6xl font-extrabold text-black dark:text-white leading-tight`}
+          >
             Jagadish C K
-          </h1>
+          </motion.h1>
 
-          <p className="mt-6 text-2xl font-bold text-gray-700 dark:text-slate-300 flex gap-2">
+          <motion.p
+            initial={{ opacity: 0, x: -30 }}
+            animate={{ opacity: 1, x: 0 }}
+            transition={{ duration: 0.6 }}
+            className="mt-6 text-2xl font-bold text-gray-700 dark:text-slate-300 flex gap-2"
+          >
             I am a <TypingText />
-          </p>
+          </motion.p>
 
           {/* Social Icons */}
           <div className="flex gap-4 mt-6 flex-wrap">
@@ -101,7 +109,7 @@ const HeroPage = () => {
       </div>
 
       {/* Footer */}
-      <div className="absolute bottom-5 w-full text-center text-sm text-gray-600 dark:text-gray-400">
+      <div className="absolute bottom-5 w-full text-center text-sm text-gray-900 dark:text-gray-400">
         Made with ❤ and &lt;/&gt; by Jagadish
       </div>
     </div>

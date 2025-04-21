@@ -1,13 +1,10 @@
-// components/ContactBlock.tsx
+"use client";
 import React from "react";
-
-
+import { motion } from "framer-motion";
 
 const ContactBlock = () => {
-  
-
   return (
-    <div className=" min-h-screen flex flex-col font-inter mt-2">
+    <div className="min-h-screen flex flex-col font-inter mt-2">
       <div className="mb-8 text-center">
         <h2 className="text-2xl md:text-3xl font-semibold border-b-2 border-[#c49647] inline-block">
           Contact
@@ -15,7 +12,11 @@ const ContactBlock = () => {
       </div>
 
       <main className="flex-grow flex justify-center items-start pt-10 px-4">
-        <form
+        <motion.form
+          initial={{ opacity: 0, y: 50 }}
+          whileInView={{ opacity: 1, y: 0 }}
+          transition={{ duration: 0.6, ease: "easeOut" }}
+          viewport={{ once: true }}
           className="bg-[#0E1117] rounded-3xl max-w-2xl w-full p-8 flex flex-col gap-4"
           aria-label="Contact form"
         >
@@ -48,10 +49,8 @@ const ContactBlock = () => {
           >
             SUBMIT
           </button>
-        </form>
+        </motion.form>
       </main>
-
-      {/* Social Links Section */}
     </div>
   );
 };
