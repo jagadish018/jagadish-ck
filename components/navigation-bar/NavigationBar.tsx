@@ -41,7 +41,7 @@ export default function NavigationBar() {
         {/* Logo */}
         <Link
           href={paths.home}
-          className="font-bold text-xl text-transparent bg-clip-text bg-gradient-to-r from-pink-600 via-red-500 to-orange-400"
+          className="font-bold text-xl text-transparent bg-clip-text bg-gradient-to-r from-pink-600 via-red-400 to-orange-400"
         >
           &lt;JAGADISH C K /&gt;
         </Link>
