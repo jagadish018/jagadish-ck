@@ -1,5 +1,7 @@
 "use client";
 
+import { Island_Moments } from "next/font/google";
+
 import dynamic from "next/dynamic";
 import React from "react";
 import TypingText from "./TypingText";
@@ -9,10 +11,14 @@ import { BiLogoInstagramAlt } from "react-icons/bi";
 import { FaXTwitter, FaLinkedin } from "react-icons/fa6";
 import { SiLeetcode } from "react-icons/si";
 
+
 const LottiePlayer = dynamic(
   () => import("@/components/lottiefile-animation/LottiePlayer"),
   { ssr: false }
 );
+
+
+
 
 const socialLinks = [
   {
@@ -58,7 +64,7 @@ const HeroPage = () => {
       <div className="w-full max-w-6xl flex flex-col md:flex-row items-center gap-7 justify-between rounded-xl overflow-hidden shadow-lg p-4">
         {/* Left Section */}
         <div className="flex-1 text-start px-6">
-          <h1 className="text-4xl md:text-6xl font-extrabold text-black dark:text-white leading-tight">
+          <h1 className={`text-4xl md:text-6xl font-extrabold text-black dark:text-white leading-tight  `}>
             Jagadish C K
           </h1>
 

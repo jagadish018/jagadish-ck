@@ -49,7 +49,7 @@ const ContactPage = () => {
               href={link.url}
               target="_blank"
               rel="noopener noreferrer"
-              className=" text-[#c49647] hover:text-[#8a8c8c] transition-colors"
+              className=" text-white hover:text-[#8a8c8c] transition-colors"
             >
               {link.tag}
               <span className="sr-only">{link.title}</span>
