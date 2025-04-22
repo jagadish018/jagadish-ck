@@ -32,11 +32,10 @@ const ProjectPage = () => {
         "Developed Deep learning model using ResNet50 + Streamlit. It detects Colon Cancer",
     },
     {
-      imagePath: "/cpuSchedule.jpg",
-      title: "CPU Schedule Visualizer",
-      projectUrl:
-        "https://github.com/jagadish018/CPU-Scheduler-Algo-Visualizer",
-      description: "Developed Algorithm visualizer using React + TailwindCSS",
+      imagePath: "/weather.png",
+      title: "Weather App",
+      projectUrl: "https://weather-app-bice-ten-40.vercel.app/",
+      description: "Developed Weather APP using React + TailwindCSS",
     },
     {
       imagePath: "/Hono.jpg",
