@@ -13,7 +13,7 @@ const ContactBlock = () => {
 
       <main className="flex-grow flex justify-center items-start pt-10 px-4">
         <motion.form
-          action="https://formsubmit.co/6a794e02b6e916d45ad18dfa735b15c4" // FormSubmit.co action
+          action="https://formsubmit.co/jagadishck.018@gmail.com" // FormSubmit.co action
           method="POST"
           initial={{ opacity: 0, y: 50 }}
           whileInView={{ opacity: 1, y: 0 }}
