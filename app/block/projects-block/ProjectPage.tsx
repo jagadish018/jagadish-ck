@@ -8,7 +8,7 @@ const ProjectPage = () => {
     {
       imagePath: "/hackernews.jpg",
       title: "Hackernews-Server",
-      projectUrl: "https://hackernews-ui-flax.vercel.app",
+      projectUrl: "https://platinum-web-ruby.vercel.app",
       description: "Developed an Hackernews server clone",
     },
     {
