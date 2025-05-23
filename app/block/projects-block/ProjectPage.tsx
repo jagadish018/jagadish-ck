@@ -6,10 +6,11 @@ import ProjectCard from "./ProjectCard";
 const ProjectPage = () => {
   const details = [
     {
-      imagePath: "/hackernews.jpg",
-      title: "Hackernews-Server",
+      imagePath: "/insight360.png",
+      title: "Insigh360 news web app",
       projectUrl: "https://platinum-web-ruby.vercel.app",
-      description: "Developed an Hackernews server clone",
+      description:
+        "Developed a news web app offering categorized tech and world news.",
     },
     {
       imagePath: "/filelessMalware.png",
@@ -31,8 +32,6 @@ const ProjectPage = () => {
       description:
         "Developed Deep learning model using ResNet50 + Streamlit. It detects Colon Cancer",
     },
-   
-
   ];
 
   return (
