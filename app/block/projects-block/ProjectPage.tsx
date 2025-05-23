@@ -21,7 +21,7 @@ const ProjectPage = () => {
     {
       imagePath: "/swiggy.jpg",
       title: "Swiggy Clone",
-      projectUrl: "https://github.com/jagadish018/Swiggy-Clone-website",
+      projectUrl: "https://swiggy-clone-five-theta.vercel.app",
       description: "Developed Swiggy clone ",
     },
     {
@@ -31,18 +31,8 @@ const ProjectPage = () => {
       description:
         "Developed Deep learning model using ResNet50 + Streamlit. It detects Colon Cancer",
     },
-    {
-      imagePath: "/weather.png",
-      title: "Weather App",
-      projectUrl: "https://weather-app-bice-ten-40.vercel.app/",
-      description: "Developed Weather APP using React + TailwindCSS",
-    },
-    {
-      imagePath: "/Hono.jpg",
-      title: "Hono Clone",
-      projectUrl: "https://github.com/jagadish018/copper",
-      description: "Developed Hono clone Web Framework",
-    },
+   
+
   ];
 
   return (
