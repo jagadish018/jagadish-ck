@@ -8,7 +8,7 @@ const ProjectPage = () => {
     {
       imagePath: "/insight360.png",
       title: "Insigh360 news web app",
-      projectUrl: "https://platinum-web-ruby.vercel.app",
+      projectUrl: "https://app.insight360.info",
       description:
         "Developed a news web app offering categorized tech and world news.",
     },
